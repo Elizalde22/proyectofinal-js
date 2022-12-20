@@ -1,0 +1,42 @@
+
+.header {
+    position: fixed;
+    z-index: 10;
+
+    nav {
+        display: flex;
+        background-color: #80808070;
+        background: linear-gradient(#00000041, #00000054);
+        align-items: center;
+        justify-content: space-around;
+        width: 100vw;
+        padding: 25px;
+        color: $color-1;
+        width: 100vw;
+        padding: 24px;
+        font-weight: 700;
+
+        h1 {
+            img {
+                width: 90px;
+                height: 90px;
+            }
+        }
+
+        ul {
+            li {
+                display: inline-block;
+
+                a {
+                    margin: 20px;
+                    color: white;
+                }
+
+            }
+        }
+    }
+
+
+}
+
+

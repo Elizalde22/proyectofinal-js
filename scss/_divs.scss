@@ -1,0 +1,47 @@
+/*---contacto----*/
+
+
+
+.carousel-item h5 {
+    color: $color-1  !important;
+    background-color: black;
+
+
+}
+
+.carousel-item p {
+    color: $color-1  !important;
+    background-color: black;
+}
+
+
+/*----formulario----*/
+
+.mb-3 {
+    color: $color-1  !important;
+}
+
+/*----productos----*/
+
+.productos{
+    padding: 200px 0 100px 0 !important;
+    
+    div {
+        margin: 20px !important;  
+
+img{
+        width: 200px !important;
+        height: 200px !important;
+        @include img()
+    }
+
+
+    }
+    
+    
+}
+
+.video-productos {
+    display: flex;
+    justify-content: center;
+}

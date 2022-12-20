@@ -1,0 +1,10 @@
+
+
+.footerb {
+    @include foot();
+
+    a {
+        margin: 8px;
+        padding: 8px;
+    }
+}
