@@ -9,7 +9,7 @@ for(let productos of gondola){
   let nuevoProducto = document.createElement("div")
   nuevoProducto.innerHTML = `<article id="${productos.id}" class="card">
   <h3 class="tituloCard">${productos.nombre}</h3>
-  <img src="./images/${productos.imagen}"  alt="${productos.titulo}">
+  <img src="/image/${productos.imagen}"  alt="${productos.titulo}">
                                 <div class="content">
                                     <p class="autorCard">${productos.marca}</p>
                                     <p class="precioCard">Precio: ${productos.precio}</p>
