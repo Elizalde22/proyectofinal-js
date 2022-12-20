@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+@import "variables";
+@import "body";
+@import "nav";
+@import "main";
+@import "section";
+@import "divs";
+@import "footer";
+@import "media";

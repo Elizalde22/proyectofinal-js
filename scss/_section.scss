@@ -1,0 +1,58 @@
+.sectioncard {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.sectioncard2 {
+    @extend .sectioncard;
+
+    img {
+        height: 200px;
+        width: 254px;
+    }
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas:
+        "gal1 gal1 gal1 gal1"
+        "gal2 gal2 gal3 gal3"
+        "gal4 gal4 gal5 gal5"
+        "gal4 gal4 gal5 gal5"
+    ;
+    gap: 24px;
+    width: 100%;
+    place-items: center; //*---busque en google y me gusto esta opcion para agaleria---*//
+
+
+    img {
+        width: 100%;
+        height: 100%;
+        @include img()
+    }
+    
+}
+    .gal1 {
+        grid-area: gal1;
+    }
+
+    .gal2 {
+        grid-area: gal2;
+    }
+
+    .gal3 {
+        grid-area: gal3;
+    }
+
+    .gal4 {
+        grid-area: gal4;
+
+    }
+
+    .gal5 {
+        grid-area: gal5;
+    }
